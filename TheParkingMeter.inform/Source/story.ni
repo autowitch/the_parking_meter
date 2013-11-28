@@ -379,7 +379,13 @@ Laying on the street is a room. It is an interesting place to start.
 
 Book 5 - Seven Falls / Clear Creek Canyon
 
-The Hanging Platform is a room. It is an interesting place to start.
+Hanging Platform is a room. It is an interesting place to start. The description is "This "
+
+Narrow Ledge is a room. It is southwest of Hanging Platform.
+
+Canyon Intersection  is a room. It is south of Narrow Ledge
+
+
 
 Book 6 - Abandoned House
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x15bd1e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xaa13c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>GNOME Inform 7</generator>
-  <activeNode nodeId="node-0x7f1998373e50"/>
-  <item nodeId="node-0x15bd1e0">
+  <activeNode nodeId="node-0xaa13c0"/>
+  <item nodeId="node-0xaa13c0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -24,35 +24,35 @@ You can see an a parking meter next to the street here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x15bd340"/>
-      <child nodeId="node-0x15bd600"/>
-      <child nodeId="node-0x15bd760"/>
-      <child nodeId="node-0x1d0ace0"/>
-      <child nodeId="node-0x1d334b0"/>
-      <child nodeId="node-0x1d33e50"/>
-      <child nodeId="node-0x1d7da30"/>
-      <child nodeId="node-0x1da49c0"/>
-      <child nodeId="node-0x1da4c80"/>
-      <child nodeId="node-0x1dce170"/>
-      <child nodeId="node-0x1dce430"/>
-      <child nodeId="node-0x1dce850"/>
-      <child nodeId="node-0x1dce9b0"/>
-      <child nodeId="node-0x1dcec70"/>
-      <child nodeId="node-0x1de7080"/>
-      <child nodeId="node-0x1de7340"/>
-      <child nodeId="node-0x1e0d780"/>
-      <child nodeId="node-0x1e0dba0"/>
-      <child nodeId="node-0x7f199c101610"/>
-      <child nodeId="node-0x7f199c101770"/>
-      <child nodeId="node-0x7f199c101a30"/>
-      <child nodeId="node-0x7f199c101cf0"/>
-      <child nodeId="node-0x7f199c101e50"/>
-      <child nodeId="node-0x7f19983734b0"/>
-      <child nodeId="node-0x7f19983738d0"/>
-      <child nodeId="node-0x7f1998373a30"/>
+      <child nodeId="node-0xaa1520"/>
+      <child nodeId="node-0xaa1940"/>
+      <child nodeId="node-0xaa17e0"/>
+      <child nodeId="node-0x15300e0"/>
+      <child nodeId="node-0x15307c0"/>
+      <child nodeId="node-0x154bc70"/>
+      <child nodeId="node-0x15a17d0"/>
+      <child nodeId="node-0x15cc7c0"/>
+      <child nodeId="node-0x15cca80"/>
+      <child nodeId="node-0x15ccea0"/>
+      <child nodeId="node-0x15e52e0"/>
+      <child nodeId="node-0x15e5700"/>
+      <child nodeId="node-0x15e5860"/>
+      <child nodeId="node-0x15e5b20"/>
+      <child nodeId="node-0x160a150"/>
+      <child nodeId="node-0x160a410"/>
+      <child nodeId="node-0x1631240"/>
+      <child nodeId="node-0x16317c0"/>
+      <child nodeId="node-0x1657590"/>
+      <child nodeId="node-0x1657850"/>
+      <child nodeId="node-0x1657b10"/>
+      <child nodeId="node-0x1657f30"/>
+      <child nodeId="node-0x1672160"/>
+      <child nodeId="node-0x16c7560"/>
+      <child nodeId="node-0x16c76c0"/>
+      <child nodeId="node-0x16c7ae0"/>
     </children>
   </item>
-  <item nodeId="node-0x15bd340">
+  <item nodeId="node-0xaa1520">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Endless Street
 You are standing on a deserted street running to the east and the west. Old boarded up shops line the street on both sides.
@@ -66,10 +66,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x15bd4a0"/>
+      <child nodeId="node-0xaa1aa0"/>
     </children>
   </item>
-  <item nodeId="node-0x15bd4a0">
+  <item nodeId="node-0xaa1aa0">
     <command xml:space="preserve">take meter</command>
     <result xml:space="preserve">Taken.
 
@@ -80,7 +80,7 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x15bd600">
+  <item nodeId="node-0xaa1940">
     <command xml:space="preserve">x meter</command>
     <result xml:space="preserve">A new looking parking meter. There dial indicates that the time is expired.
 
@@ -91,7 +91,7 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x15bd760">
+  <item nodeId="node-0xaa17e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started. That&apos;s odd.
 
@@ -102,12 +102,12 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x15bd8c0"/>
-      <child nodeId="node-0x1ce58e0"/>
-      <child nodeId="node-0x1d0a600"/>
+      <child nodeId="node-0xaa1680"/>
+      <child nodeId="node-0x14e1b20"/>
+      <child nodeId="node-0x15099c0"/>
     </children>
   </item>
-  <item nodeId="node-0x15bd8c0">
+  <item nodeId="node-0xaa1680">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 
@@ -118,12 +118,12 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x15bda20"/>
-      <child nodeId="node-0x1cbd6e0"/>
-      <child nodeId="node-0x1cbdb00"/>
+      <child nodeId="node-0xaa1c00"/>
+      <child nodeId="node-0x14ba9a0"/>
+      <child nodeId="node-0x14badc0"/>
     </children>
   </item>
-  <item nodeId="node-0x15bda20">
+  <item nodeId="node-0xaa1c00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -134,11 +134,11 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x15bdb80"/>
-      <child nodeId="node-0x15bde40"/>
+      <child nodeId="node-0xaa1d60"/>
+      <child nodeId="node-0x14ba160"/>
     </children>
   </item>
-  <item nodeId="node-0x15bdb80">
+  <item nodeId="node-0xaa1d60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
  You try to peel some of the plywood off, but to no avail.
@@ -150,10 +150,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x15bdce0"/>
+      <child nodeId="node-0xaa1ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x15bdce0">
+  <item nodeId="node-0xaa1ec0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 
@@ -164,7 +164,7 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x15bde40">
+  <item nodeId="node-0x14ba160">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -175,10 +175,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd000"/>
+      <child nodeId="node-0x14ba2c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd000">
+  <item nodeId="node-0x14ba2c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -189,10 +189,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd160"/>
+      <child nodeId="node-0x14ba420"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd160">
+  <item nodeId="node-0x14ba420">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -203,10 +203,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd2c0"/>
+      <child nodeId="node-0x14ba580"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd2c0">
+  <item nodeId="node-0x14ba580">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -217,10 +217,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd420"/>
+      <child nodeId="node-0x14ba6e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd420">
+  <item nodeId="node-0x14ba6e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -231,10 +231,10 @@ You can see a parking meter here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd580"/>
+      <child nodeId="node-0x14ba840"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd580">
+  <item nodeId="node-0x14ba840">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 You try to peel some of the plywood off, but to no avail.
@@ -246,7 +246,7 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1cbd6e0">
+  <item nodeId="node-0x14ba9a0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">foo
 &gt;</result>
@@ -256,10 +256,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd840"/>
+      <child nodeId="node-0x14bab00"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd840">
+  <item nodeId="node-0x14bab00">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">foo
 &gt;</result>
@@ -269,10 +269,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbd9a0"/>
+      <child nodeId="node-0x14bac60"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbd9a0">
+  <item nodeId="node-0x14bac60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">foo
 &gt;</result>
@@ -282,7 +282,7 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1cbdb00">
+  <item nodeId="node-0x14badc0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">You wait for hours, but no bus comes by to pick you up.
 
@@ -293,10 +293,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbdc60"/>
+      <child nodeId="node-0x14baf20"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbdc60">
+  <item nodeId="node-0x14baf20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -307,10 +307,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1cbddc0"/>
+      <child nodeId="node-0x14e1180"/>
     </children>
   </item>
-  <item nodeId="node-0x1cbddc0">
+  <item nodeId="node-0x14e1180">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
 You knock at one of the boarded up doors. There is no answer
@@ -321,10 +321,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce50a0"/>
+      <child nodeId="node-0x14e12e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce50a0">
+  <item nodeId="node-0x14e12e0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -335,10 +335,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5200"/>
+      <child nodeId="node-0x14e1440"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5200">
+  <item nodeId="node-0x14e1440">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">There&apos;s not really anything to climb here.
 
@@ -349,10 +349,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5360"/>
+      <child nodeId="node-0x14e15a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5360">
+  <item nodeId="node-0x14e15a0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">There&apos;s no way down. Not even a manhole.
 
@@ -363,10 +363,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce54c0"/>
+      <child nodeId="node-0x14e1700"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce54c0">
+  <item nodeId="node-0x14e1700">
     <command xml:space="preserve">x street</command>
     <result xml:space="preserve">An empty potholed street
 
@@ -377,10 +377,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5620"/>
+      <child nodeId="node-0x14e1860"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5620">
+  <item nodeId="node-0x14e1860">
     <command xml:space="preserve">x potholes</command>
     <result xml:space="preserve">Some of these potholes could swallow a Geo Metro.
 
@@ -391,10 +391,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5780"/>
+      <child nodeId="node-0x14e19c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5780">
+  <item nodeId="node-0x14e19c0">
     <command xml:space="preserve">x car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -405,7 +405,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1ce58e0">
+  <item nodeId="node-0x14e1b20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 &gt;</result>
@@ -415,10 +415,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5a40"/>
+      <child nodeId="node-0x14e1c80"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5a40">
+  <item nodeId="node-0x14e1c80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 &gt;</result>
@@ -428,11 +428,11 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5ba0"/>
-      <child nodeId="node-0x1d0a340"/>
+      <child nodeId="node-0x14e1de0"/>
+      <child nodeId="node-0x15095a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5ba0">
+  <item nodeId="node-0x14e1de0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 &gt;</result>
@@ -442,10 +442,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5d00"/>
+      <child nodeId="node-0x14e1f40"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5d00">
+  <item nodeId="node-0x14e1f40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 &gt;</result>
@@ -455,10 +455,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1ce5e60"/>
+      <child nodeId="node-0x1509180"/>
     </children>
   </item>
-  <item nodeId="node-0x1ce5e60">
+  <item nodeId="node-0x1509180">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">The shops are all boarded up. You try to peel some of the plywood off, but to no avail
 &gt;</result>
@@ -468,10 +468,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0a080"/>
+      <child nodeId="node-0x15092e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0a080">
+  <item nodeId="node-0x15092e0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">There&apos;s not really anything to climb here.
 
@@ -482,10 +482,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0a1e0"/>
+      <child nodeId="node-0x1509440"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0a1e0">
+  <item nodeId="node-0x1509440">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">There&apos;s no way down. Not even a manhole.
 
@@ -496,7 +496,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d0a340">
+  <item nodeId="node-0x15095a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up. You knock at one of the boarded up doors. You just hear a hollow noise.
 
@@ -507,10 +507,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0a4a0"/>
+      <child nodeId="node-0x1509700"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0a4a0">
+  <item nodeId="node-0x1509700">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
 &gt;</result>
@@ -520,10 +520,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199c1011f0"/>
+      <child nodeId="node-0x1509860"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199c1011f0">
+  <item nodeId="node-0x1509860">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up. You knock at one of the boarded up doors. There is no answer
 &gt;</result>
@@ -533,7 +533,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d0a600">
+  <item nodeId="node-0x15099c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -544,11 +544,11 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0a760"/>
-      <child nodeId="node-0x1d0a8c0"/>
+      <child nodeId="node-0x1509b20"/>
+      <child nodeId="node-0x1509c80"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0a760">
+  <item nodeId="node-0x1509b20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -559,7 +559,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d0a8c0">
+  <item nodeId="node-0x1509c80">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">They are securely boarded up.
 
@@ -570,10 +570,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0aa20"/>
+      <child nodeId="node-0x1509de0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0aa20">
+  <item nodeId="node-0x1509de0">
     <command xml:space="preserve">open windows</command>
     <result xml:space="preserve">They are securely boarded up.
 
@@ -584,10 +584,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0ab80"/>
+      <child nodeId="node-0x1509f40"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0ab80">
+  <item nodeId="node-0x1509f40">
     <command xml:space="preserve">close window</command>
     <result xml:space="preserve">They are already about as closed as they can be.
 
@@ -598,7 +598,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d0ace0">
+  <item nodeId="node-0x15300e0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">foo
 &gt;</result>
@@ -608,10 +608,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d0ae40"/>
+      <child nodeId="node-0x1530240"/>
     </children>
   </item>
-  <item nodeId="node-0x1d0ae40">
+  <item nodeId="node-0x1530240">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">The shops are all boarded up.
 &gt;</result>
@@ -621,10 +621,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d33090"/>
+      <child nodeId="node-0x15303a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d33090">
+  <item nodeId="node-0x15303a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 &gt;</result>
@@ -634,10 +634,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d331f0"/>
+      <child nodeId="node-0x1530500"/>
     </children>
   </item>
-  <item nodeId="node-0x1d331f0">
+  <item nodeId="node-0x1530500">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started. That&apos;s odd.
 
@@ -648,10 +648,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d33350"/>
+      <child nodeId="node-0x1530660"/>
     </children>
   </item>
-  <item nodeId="node-0x1d33350">
+  <item nodeId="node-0x1530660">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 &gt;</result>
@@ -661,7 +661,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d334b0">
+  <item nodeId="node-0x15307c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up. You knock at one of the boarded up doors. You just hear a hollow noise.
 
@@ -672,11 +672,11 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d33610"/>
-      <child nodeId="node-0x7f1998243610"/>
+      <child nodeId="node-0x1530920"/>
+      <child nodeId="node-0x154b2d0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d33610">
+  <item nodeId="node-0x1530920">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 You try to peel some of the plywood off, but to no avail.
@@ -688,10 +688,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d33770"/>
+      <child nodeId="node-0x1530a80"/>
     </children>
   </item>
-  <item nodeId="node-0x1d33770">
+  <item nodeId="node-0x1530a80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -702,10 +702,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d338d0"/>
+      <child nodeId="node-0x1530be0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d338d0">
+  <item nodeId="node-0x1530be0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 You try to peel some of the plywood off, but to no avail.
@@ -717,11 +717,11 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d33a30"/>
-      <child nodeId="node-0x1d33b90"/>
+      <child nodeId="node-0x1530d40"/>
+      <child nodeId="node-0x1530ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d33a30">
+  <item nodeId="node-0x1530d40">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">The shops are all boarded up. .
 
@@ -732,7 +732,7 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d33b90">
+  <item nodeId="node-0x1530ea0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -743,10 +743,10 @@ You try to peel some of the plywood off, but to no avail.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d33cf0"/>
+      <child nodeId="node-0x154b170"/>
     </children>
   </item>
-  <item nodeId="node-0x1d33cf0">
+  <item nodeId="node-0x154b170">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 You knock at one of the boarded up doors. You just hear a hollow noise.
@@ -758,7 +758,7 @@ You knock at one of the boarded up doors. You just hear a hollow noise.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998243610">
+  <item nodeId="node-0x154b2d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
 &gt;</result>
@@ -768,10 +768,10 @@ You knock at one of the boarded up doors. You just hear a hollow noise.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19982434b0"/>
+      <child nodeId="node-0x154b430"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19982434b0">
+  <item nodeId="node-0x154b430">
     <command xml:space="preserve">put coin in meter</command>
     <result xml:space="preserve">Clunk. The meter now indicates 15 minutes remaining.
 
@@ -782,10 +782,10 @@ You knock at one of the boarded up doors. You just hear a hollow noise.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998243350"/>
+      <child nodeId="node-0x154b590"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998243350">
+  <item nodeId="node-0x154b590">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">fooAs you touch the plywood over the door, it transforms into a swarm a moths and flies off
 Abandoned Shop
@@ -800,10 +800,10 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998243770"/>
+      <child nodeId="node-0x154b6f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998243770">
+  <item nodeId="node-0x154b6f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Endless Street
@@ -816,10 +816,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19982438d0"/>
+      <child nodeId="node-0x154b850"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19982438d0">
+  <item nodeId="node-0x154b850">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">fooAs you touch the plywood over the door, it transforms into a swarm a beetles and crawls off
 Abandoned Shop
@@ -832,10 +832,10 @@ A simple wooden table with the word &quot;AMISSIO&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998243a30"/>
+      <child nodeId="node-0x154b9b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998243a30">
+  <item nodeId="node-0x154b9b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Endless Street
@@ -848,10 +848,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998243b90"/>
+      <child nodeId="node-0x154bb10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998243b90">
+  <item nodeId="node-0x154bb10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">fooAs you touch the plywood over the door, it transforms into a swarm a centipedes and crawls off
 Abandoned Shop
@@ -864,7 +864,7 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d33e50">
+  <item nodeId="node-0x154bc70">
     <command xml:space="preserve">x car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -875,11 +875,11 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c040"/>
-      <child nodeId="node-0x1d4c460"/>
+      <child nodeId="node-0x154bdd0"/>
+      <child nodeId="node-0x157a2c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c040">
+  <item nodeId="node-0x154bdd0">
     <command xml:space="preserve">x sky</command>
     <result xml:space="preserve">It&apos;s grey and sullen.
 
@@ -890,10 +890,10 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c1a0"/>
+      <child nodeId="node-0x154bf30"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c1a0">
+  <item nodeId="node-0x154bf30">
     <command xml:space="preserve">x buildings</command>
     <result xml:space="preserve">Squat brick buildings line the street. All of which have been long boarded up. No signs remain to let you know what these places were.
 
@@ -904,10 +904,10 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c300"/>
+      <child nodeId="node-0x157a160"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c300">
+  <item nodeId="node-0x157a160">
     <command xml:space="preserve">x windows</command>
     <result xml:space="preserve">The windows are all boarded up.
 
@@ -918,7 +918,7 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d4c460">
+  <item nodeId="node-0x157a2c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 That&apos;s odd.
@@ -930,10 +930,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c5c0"/>
+      <child nodeId="node-0x157a420"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c5c0">
+  <item nodeId="node-0x157a420">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 
@@ -944,10 +944,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c720"/>
+      <child nodeId="node-0x157a580"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c720">
+  <item nodeId="node-0x157a580">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">You wait for hours, but no bus comes by to pick you up.
 
@@ -958,10 +958,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c880"/>
+      <child nodeId="node-0x157a6e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c880">
+  <item nodeId="node-0x157a6e0">
     <command xml:space="preserve">x bus</command>
     <result xml:space="preserve">You came here by the number 15 bus. It&apos;s been a long time since you&apos;ve seen another once come by. Or anyone else for that matter.
 
@@ -972,10 +972,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4c9e0"/>
+      <child nodeId="node-0x157a840"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4c9e0">
+  <item nodeId="node-0x157a840">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -986,10 +986,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4cb40"/>
+      <child nodeId="node-0x157a9a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4cb40">
+  <item nodeId="node-0x157a9a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -1000,10 +1000,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4cca0"/>
+      <child nodeId="node-0x157ab00"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4cca0">
+  <item nodeId="node-0x157ab00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 
@@ -1014,10 +1014,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d4ce00"/>
+      <child nodeId="node-0x157ac60"/>
     </children>
   </item>
-  <item nodeId="node-0x1d4ce00">
+  <item nodeId="node-0x157ac60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk down the street for a long time and find yourself back where you started.
 
@@ -1028,10 +1028,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d090"/>
+      <child nodeId="node-0x157adc0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d090">
+  <item nodeId="node-0x157adc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -1042,10 +1042,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d1f0"/>
+      <child nodeId="node-0x157af20"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d1f0">
+  <item nodeId="node-0x157af20">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">You wait for hours, but no bus comes by to pick you up.
 
@@ -1056,10 +1056,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d350"/>
+      <child nodeId="node-0x15a10f0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d350">
+  <item nodeId="node-0x15a10f0">
     <command xml:space="preserve">x sky</command>
     <result xml:space="preserve">It&apos;s grey and sullen.
 
@@ -1070,10 +1070,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d4b0"/>
+      <child nodeId="node-0x15a1250"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d4b0">
+  <item nodeId="node-0x15a1250">
     <command xml:space="preserve">x street</command>
     <result xml:space="preserve">An empty potholed street
 
@@ -1084,10 +1084,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d610"/>
+      <child nodeId="node-0x15a13b0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d610">
+  <item nodeId="node-0x15a13b0">
     <command xml:space="preserve">x buildings</command>
     <result xml:space="preserve">Squat brick buildings line the street. All of which have been long boarded up. No signs remain to let you know what these places were.
 
@@ -1098,10 +1098,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d770"/>
+      <child nodeId="node-0x15a1510"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d770">
+  <item nodeId="node-0x15a1510">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1112,10 +1112,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7d8d0"/>
+      <child nodeId="node-0x15a1670"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7d8d0">
+  <item nodeId="node-0x15a1670">
     <command xml:space="preserve">open windows</command>
     <result xml:space="preserve">That&apos;s not something you can open.
 
@@ -1126,7 +1126,7 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1d7da30">
+  <item nodeId="node-0x15a17d0">
     <command xml:space="preserve">x doars</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1137,10 +1137,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7db90"/>
+      <child nodeId="node-0x15a1930"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7db90">
+  <item nodeId="node-0x15a1930">
     <command xml:space="preserve">x doors</command>
     <result xml:space="preserve">The doors are all boarded up.
 
@@ -1151,10 +1151,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7dcf0"/>
+      <child nodeId="node-0x15a1a90"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7dcf0">
+  <item nodeId="node-0x15a1a90">
     <command xml:space="preserve">x graffiti</command>
     <result xml:space="preserve">Oddly enough, there is no graffiti here. If there was graffiti here, it would probably warn you to stay away.
 
@@ -1165,10 +1165,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d7de50"/>
+      <child nodeId="node-0x15a1bf0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d7de50">
+  <item nodeId="node-0x15a1bf0">
     <command xml:space="preserve">x rats</command>
     <result xml:space="preserve">Rats! Where?
 
@@ -1179,10 +1179,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4020"/>
+      <child nodeId="node-0x15a1d50"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4020">
+  <item nodeId="node-0x15a1d50">
     <command xml:space="preserve">x street</command>
     <result xml:space="preserve">An empty potholed street
 
@@ -1193,10 +1193,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4180"/>
+      <child nodeId="node-0x15a1eb0"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4180">
+  <item nodeId="node-0x15a1eb0">
     <command xml:space="preserve">x potholes</command>
     <result xml:space="preserve">Some of these potholes could swallow a Geo Metro.
 
@@ -1207,10 +1207,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da42e0"/>
+      <child nodeId="node-0x15cc0e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1da42e0">
+  <item nodeId="node-0x15cc0e0">
     <command xml:space="preserve">x boards</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1221,10 +1221,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4440"/>
+      <child nodeId="node-0x15cc240"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4440">
+  <item nodeId="node-0x15cc240">
     <command xml:space="preserve">x plywood</command>
     <result xml:space="preserve">The amount of plywood used to board up these shops probably kept some lumber yard in business.
 
@@ -1235,10 +1235,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da45a0"/>
+      <child nodeId="node-0x15cc3a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1da45a0">
+  <item nodeId="node-0x15cc3a0">
     <command xml:space="preserve">x lumber yard</command>
     <result xml:space="preserve">It doesn&apos;t matter which lumber yard.
 
@@ -1249,10 +1249,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4700"/>
+      <child nodeId="node-0x15cc500"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4700">
+  <item nodeId="node-0x15cc500">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1263,10 +1263,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4860"/>
+      <child nodeId="node-0x15cc660"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4860">
+  <item nodeId="node-0x15cc660">
     <command xml:space="preserve">x car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -1277,7 +1277,7 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1da49c0">
+  <item nodeId="node-0x15cc7c0">
     <command xml:space="preserve">open doors</command>
     <result xml:space="preserve">The doors are securely boarded up.
 
@@ -1288,10 +1288,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4b20"/>
+      <child nodeId="node-0x15cc920"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4b20">
+  <item nodeId="node-0x15cc920">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1302,7 +1302,7 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1da4c80">
+  <item nodeId="node-0x15cca80">
     <command xml:space="preserve">take meter</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -1313,10 +1313,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1da4de0"/>
+      <child nodeId="node-0x15ccbe0"/>
     </children>
   </item>
-  <item nodeId="node-0x1da4de0">
+  <item nodeId="node-0x15ccbe0">
     <command xml:space="preserve">move meter</command>
     <result xml:space="preserve">It is fixed in place.
 
@@ -1327,10 +1327,10 @@ That&apos;s odd.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1dce010"/>
+      <child nodeId="node-0x15ccd40"/>
     </children>
   </item>
-  <item nodeId="node-0x1dce010">
+  <item nodeId="node-0x15ccd40">
     <command xml:space="preserve">eat meter</command>
     <result xml:space="preserve">(first taking the parking meter)
 That&apos;s fixed in place.
@@ -1342,7 +1342,7 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1dce170">
+  <item nodeId="node-0x15ccea0">
     <command xml:space="preserve">eat meter</command>
     <result xml:space="preserve">You give it a good lick. It tastes like dirt and desperation.
 
@@ -1353,10 +1353,10 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1dce2d0"/>
+      <child nodeId="node-0x15e5180"/>
     </children>
   </item>
-  <item nodeId="node-0x1dce2d0">
+  <item nodeId="node-0x15e5180">
     <command xml:space="preserve">x rats</command>
     <result xml:space="preserve">Rats! Where?
 
@@ -1367,7 +1367,7 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1dce430">
+  <item nodeId="node-0x15e52e0">
     <command xml:space="preserve">x garbage</command>
     <result xml:space="preserve">The typical bits of paper and broken bottles that accumulate along deserted streets.
 
@@ -1378,10 +1378,10 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1dce590"/>
+      <child nodeId="node-0x15e5440"/>
     </children>
   </item>
-  <item nodeId="node-0x1dce590">
+  <item nodeId="node-0x15e5440">
     <command xml:space="preserve">x car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -1392,10 +1392,10 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1dce6f0"/>
+      <child nodeId="node-0x15e55a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1dce6f0">
+  <item nodeId="node-0x15e55a0">
     <command xml:space="preserve">look at my car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -1406,7 +1406,7 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1dce850">
+  <item nodeId="node-0x15e5700">
     <command xml:space="preserve">x my car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -1417,7 +1417,7 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1dce9b0">
+  <item nodeId="node-0x15e5860">
     <command xml:space="preserve">enter my car</command>
     <result xml:space="preserve">You don&apos;t have a car. You arrived here by bus.
 
@@ -1428,10 +1428,10 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1dceb10"/>
+      <child nodeId="node-0x15e59c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1dceb10">
+  <item nodeId="node-0x15e59c0">
     <command xml:space="preserve">leave</command>
     <result xml:space="preserve">But you aren&apos;t in anything at the moment.
 
@@ -1442,7 +1442,7 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1dcec70">
+  <item nodeId="node-0x15e5b20">
     <command xml:space="preserve">enter</command>
     <result xml:space="preserve">You must supply a noun.
 
@@ -1453,11 +1453,11 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1dcedd0"/>
-      <child nodeId="node-0x1e0d360"/>
+      <child nodeId="node-0x15e5c80"/>
+      <child nodeId="node-0x15e5de0"/>
     </children>
   </item>
-  <item nodeId="node-0x1dcedd0">
+  <item nodeId="node-0x15e5c80">
     <command xml:space="preserve">enter shops</command>
     <result xml:space="preserve">They are well boarded up.
 
@@ -1468,7 +1468,7 @@ That&apos;s fixed in place.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1e0d360">
+  <item nodeId="node-0x15e5de0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up.
 You knock at one of the boarded up doors. There is no answer
@@ -1479,10 +1479,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0d4c0"/>
+      <child nodeId="node-0x15e5f40"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0d4c0">
+  <item nodeId="node-0x15e5f40">
     <command xml:space="preserve">out</command>
     <result xml:space="preserve">But you aren&apos;t in anything at the moment.
 
@@ -1493,7 +1493,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1de7080">
+  <item nodeId="node-0x160a150">
     <command xml:space="preserve">enter shops</command>
     <result xml:space="preserve">They are well boarded up.
 
@@ -1504,10 +1504,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de71e0"/>
+      <child nodeId="node-0x160a2b0"/>
     </children>
   </item>
-  <item nodeId="node-0x1de71e0">
+  <item nodeId="node-0x160a2b0">
     <command xml:space="preserve">enter shop</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1518,7 +1518,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1de7340">
+  <item nodeId="node-0x160a410">
     <command xml:space="preserve">enter shop</command>
     <result xml:space="preserve">They are well boarded up.
 
@@ -1529,10 +1529,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de74a0"/>
+      <child nodeId="node-0x160a570"/>
     </children>
   </item>
-  <item nodeId="node-0x1de74a0">
+  <item nodeId="node-0x160a570">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">But you aren&apos;t in anything at the moment.
 
@@ -1543,10 +1543,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de7600"/>
+      <child nodeId="node-0x160a6d0"/>
     </children>
   </item>
-  <item nodeId="node-0x1de7600">
+  <item nodeId="node-0x160a6d0">
     <command xml:space="preserve">x boards</command>
     <result xml:space="preserve">The amount of plywood used to board up these shops probably kept some lumber yard in business.
 
@@ -1557,10 +1557,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de7760"/>
+      <child nodeId="node-0x160a830"/>
     </children>
   </item>
-  <item nodeId="node-0x1de7760">
+  <item nodeId="node-0x160a830">
     <command xml:space="preserve">x lumber yard</command>
     <result xml:space="preserve">It doesn&apos;t matter which lumber yard.
 
@@ -1571,10 +1571,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de78c0"/>
+      <child nodeId="node-0x160a990"/>
     </children>
   </item>
-  <item nodeId="node-0x1de78c0">
+  <item nodeId="node-0x160a990">
     <command xml:space="preserve">x my car</command>
     <result xml:space="preserve">You don&apos;t have a car. You came here by bus.
 
@@ -1585,10 +1585,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de7a20"/>
+      <child nodeId="node-0x160aaf0"/>
     </children>
   </item>
-  <item nodeId="node-0x1de7a20">
+  <item nodeId="node-0x160aaf0">
     <command xml:space="preserve">enter my car</command>
     <result xml:space="preserve">You don&apos;t have a car. You arrived here by bus.
 
@@ -1599,10 +1599,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de7b80"/>
+      <child nodeId="node-0x160ac50"/>
     </children>
   </item>
-  <item nodeId="node-0x1de7b80">
+  <item nodeId="node-0x160ac50">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">You wait for hours, but no bus comes by to pick you up.
 
@@ -1613,10 +1613,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de7ce0"/>
+      <child nodeId="node-0x160adb0"/>
     </children>
   </item>
-  <item nodeId="node-0x1de7ce0">
+  <item nodeId="node-0x160adb0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">You wait for hours, but no bus comes by to pick you up.
 
@@ -1627,10 +1627,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1de7e40"/>
+      <child nodeId="node-0x160af10"/>
     </children>
   </item>
-  <item nodeId="node-0x1de7e40">
+  <item nodeId="node-0x160af10">
     <command xml:space="preserve">help</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1641,10 +1641,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0d0a0"/>
+      <child nodeId="node-0x16310e0"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0d0a0">
+  <item nodeId="node-0x16310e0">
     <command xml:space="preserve">x meter</command>
     <result xml:space="preserve">A new looking parking meter. There dial indicates that the time is expired.
 
@@ -1655,7 +1655,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1e0d780">
+  <item nodeId="node-0x1631240">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1666,10 +1666,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0d620"/>
+      <child nodeId="node-0x16313a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0d620">
+  <item nodeId="node-0x16313a0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -1680,10 +1680,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0d8e0"/>
+      <child nodeId="node-0x1631500"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0d8e0">
+  <item nodeId="node-0x1631500">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up.
 
@@ -1694,10 +1694,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0da40"/>
+      <child nodeId="node-0x1631660"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0da40">
+  <item nodeId="node-0x1631660">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up.
  You try to peel some of the plywood off, but to no avail.
@@ -1709,7 +1709,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1e0dba0">
+  <item nodeId="node-0x16317c0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up. You knock at one of the boarded up doors. There is no answer
 &gt;</result>
@@ -1719,12 +1719,12 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0dd00"/>
-      <child nodeId="node-0x7f1998243cf0"/>
-      <child nodeId="node-0x7f1998243e50"/>
+      <child nodeId="node-0x1631920"/>
+      <child nodeId="node-0x1631d40"/>
+      <child nodeId="node-0x1631ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0dd00">
+  <item nodeId="node-0x1631920">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The shops are all boarded up. You knock at one of the boarded up doors. You just hear a hollow noise.
 
@@ -1735,10 +1735,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1e0de60"/>
+      <child nodeId="node-0x1631a80"/>
     </children>
   </item>
-  <item nodeId="node-0x1e0de60">
+  <item nodeId="node-0x1631a80">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up. You try to peel some of the plywood off, but to no avail.
 
@@ -1749,10 +1749,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199c101090"/>
+      <child nodeId="node-0x1631be0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199c101090">
+  <item nodeId="node-0x1631be0">
     <command xml:space="preserve">in</command>
     <result xml:space="preserve">The shops are all boarded up.
 &gt;</result>
@@ -1762,7 +1762,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998243cf0">
+  <item nodeId="node-0x1631d40">
     <command xml:space="preserve">put coin in meter</command>
     <result xml:space="preserve">Clunk. The meter now indicates 15 minutes remaining.
 
@@ -1773,7 +1773,7 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998243e50">
+  <item nodeId="node-0x1631ea0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The shops are all boarded up. You try to peel some of the plywood off, but to no avail.
 
@@ -1784,10 +1784,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998373090"/>
+      <child nodeId="node-0x1657170"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998373090">
+  <item nodeId="node-0x1657170">
     <command xml:space="preserve">put coin in meter</command>
     <result xml:space="preserve">Clunk. The meter now indicates 15 minutes remaining.
 
@@ -1798,10 +1798,10 @@ You knock at one of the boarded up doors. There is no answer
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19983731f0"/>
+      <child nodeId="node-0x16572d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19983731f0">
+  <item nodeId="node-0x16572d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">bar
 You can&apos;t go that way.
@@ -1813,10 +1813,10 @@ You can&apos;t go that way.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998373350"/>
+      <child nodeId="node-0x1657430"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998373350">
+  <item nodeId="node-0x1657430">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">bar
 You can&apos;t go that way.
@@ -1828,7 +1828,7 @@ You can&apos;t go that way.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f199c101610">
+  <item nodeId="node-0x1657590">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a 1976 bicentennial quarter
@@ -1840,10 +1840,10 @@ You can&apos;t go that way.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199c1014b0"/>
+      <child nodeId="node-0x16576f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199c1014b0">
+  <item nodeId="node-0x16576f0">
     <command xml:space="preserve">x quarter</command>
     <result xml:space="preserve">foo
 
@@ -1854,7 +1854,7 @@ You can&apos;t go that way.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f199c101770">
+  <item nodeId="node-0x1657850">
     <command xml:space="preserve">insert quarter</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1865,10 +1865,10 @@ You can&apos;t go that way.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199c101350"/>
+      <child nodeId="node-0x16579b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199c101350">
+  <item nodeId="node-0x16579b0">
     <command xml:space="preserve">insert quarter into meter</command>
     <result xml:space="preserve">FOo
 Endless Street
@@ -1881,7 +1881,7 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f199c101a30">
+  <item nodeId="node-0x1657b10">
     <command xml:space="preserve">put quarter</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1892,10 +1892,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199c1018d0"/>
+      <child nodeId="node-0x1657c70"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199c1018d0">
+  <item nodeId="node-0x1657c70">
     <command xml:space="preserve">insert quarter</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1906,10 +1906,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199c101b90"/>
+      <child nodeId="node-0x1657dd0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199c101b90">
+  <item nodeId="node-0x1657dd0">
     <command xml:space="preserve">put quarter in meter</command>
     <result xml:space="preserve">FOo
 &gt;</result>
@@ -1919,7 +1919,7 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f199c101cf0">
+  <item nodeId="node-0x1657f30">
     <command xml:space="preserve">put quarter in meter</command>
     <result xml:space="preserve">Clunk. The meter now indicates 15 minutes remaining.
 
@@ -1930,7 +1930,7 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f199c101e50">
+  <item nodeId="node-0x1672160">
     <command xml:space="preserve">put coin in meter</command>
     <result xml:space="preserve">Clunk. The meter now indicates 15 minutes remaining.
 
@@ -1941,10 +1941,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055080"/>
+      <child nodeId="node-0x16722c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055080">
+  <item nodeId="node-0x16722c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">fooAs you touch the plywood over the door, it transforms into a swarm a moths and flies off
 Abandoned Shop
@@ -1959,11 +1959,11 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055340"/>
-      <child nodeId="node-0x7f1998055600"/>
+      <child nodeId="node-0x1672420"/>
+      <child nodeId="node-0x1672580"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055340">
+  <item nodeId="node-0x1672420">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Abandoned Shop
 A simple wooden table with the word &quot;RUBEUS&quot; carved on it.
@@ -1977,7 +1977,7 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998055600">
+  <item nodeId="node-0x1672580">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Endless Street
@@ -1990,10 +1990,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19980554a0"/>
+      <child nodeId="node-0x16726e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19980554a0">
+  <item nodeId="node-0x16726e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">foo 1As you touch the plywood over the door, it transforms into a swarm a beetles and crawls off
 Abandoned Shop
@@ -2006,10 +2006,10 @@ A simple wooden table with the word &quot;AMISSIO&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19980551e0"/>
+      <child nodeId="node-0x1672840"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19980551e0">
+  <item nodeId="node-0x1672840">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Endless Street
@@ -2022,11 +2022,11 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055760"/>
-      <child nodeId="node-0x7f199822a000"/>
+      <child nodeId="node-0x16729a0"/>
+      <child nodeId="node-0x16982c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055760">
+  <item nodeId="node-0x16729a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">foo 0
 *** Run-time problem P10: Since the north is not allowed the property &quot;connected_shops&quot;, it is against the rules to try to use it.
@@ -2044,10 +2044,10 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19980558c0"/>
+      <child nodeId="node-0x1672b00"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19980558c0">
+  <item nodeId="node-0x1672b00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2058,10 +2058,10 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055a20"/>
+      <child nodeId="node-0x1672c60"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055a20">
+  <item nodeId="node-0x1672c60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Endless Street
@@ -2074,10 +2074,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055b80"/>
+      <child nodeId="node-0x1672dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055b80">
+  <item nodeId="node-0x1672dc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">foo 0
 *** Run-time problem P10: Since the south is not allowed the property &quot;connected_shops&quot;, it is against the rules to try to use it.
@@ -2095,10 +2095,10 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055ce0"/>
+      <child nodeId="node-0x1672f20"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055ce0">
+  <item nodeId="node-0x1672f20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Endless Street
@@ -2111,10 +2111,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998055e40"/>
+      <child nodeId="node-0x1698160"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998055e40">
+  <item nodeId="node-0x1698160">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">foo 0
 *** Run-time problem P10: Since the north is not allowed the property &quot;connected_shops&quot;, it is against the rules to try to use it.
@@ -2132,7 +2132,7 @@ On the Wooden table are a left doll leg, a right doll leg, a left doll arm, a ri
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f199822a000">
+  <item nodeId="node-0x16982c0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">foo 2As you touch the plywood over the door, it transforms into a swarm a centipedes and crawls off
 Abandoned Shop
@@ -2145,10 +2145,10 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a160"/>
+      <child nodeId="node-0x1698420"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a160">
+  <item nodeId="node-0x1698420">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2159,10 +2159,10 @@ A simple wooden table with the word &quot;CARCER&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a2c0"/>
+      <child nodeId="node-0x1698580"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a2c0">
+  <item nodeId="node-0x1698580">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Endless Street
@@ -2175,10 +2175,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a420"/>
+      <child nodeId="node-0x16986e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a420">
+  <item nodeId="node-0x16986e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">foo 3As you touch the plywood over the door, it transforms into a swarm a spiders and crawls off
 Abandoned Shop
@@ -2191,10 +2191,10 @@ A simple wooden table with the word &quot;TRISITIA&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a580"/>
+      <child nodeId="node-0x1698840"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a580">
+  <item nodeId="node-0x1698840">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Endless Street
@@ -2207,10 +2207,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a6e0"/>
+      <child nodeId="node-0x16989a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a6e0">
+  <item nodeId="node-0x16989a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">foo 4As you touch the plywood over the door, it transforms into a swarm a cockroaches and crawls off
 Abandoned Shop
@@ -2223,10 +2223,10 @@ A simple wooden table.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a840"/>
+      <child nodeId="node-0x1698b00"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a840">
+  <item nodeId="node-0x1698b00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2237,10 +2237,10 @@ A simple wooden table.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822a9a0"/>
+      <child nodeId="node-0x1698c60"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822a9a0">
+  <item nodeId="node-0x1698c60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2251,10 +2251,10 @@ A simple wooden table.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822ab00"/>
+      <child nodeId="node-0x1698dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822ab00">
+  <item nodeId="node-0x1698dc0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Endless Street
@@ -2267,10 +2267,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822ac60"/>
+      <child nodeId="node-0x1698f20"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822ac60">
+  <item nodeId="node-0x1698f20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">foo 5As you touch the plywood over the door, it transforms into a swarm a hornets and flies off
 Abandoned Shop
@@ -2283,10 +2283,10 @@ A simple wooden table with the word &quot;CAUDA DRACONIS&quot; carved on it.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f199822adc0"/>
+      <child nodeId="node-0x16c7140"/>
     </children>
   </item>
-  <item nodeId="node-0x7f199822adc0">
+  <item nodeId="node-0x16c7140">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Endless Street
@@ -2299,10 +2299,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998243090"/>
+      <child nodeId="node-0x16c72a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998243090">
+  <item nodeId="node-0x16c72a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">foo 6
 &gt;</result>
@@ -2312,10 +2312,10 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f19982431f0"/>
+      <child nodeId="node-0x16c7400"/>
     </children>
   </item>
-  <item nodeId="node-0x7f19982431f0">
+  <item nodeId="node-0x16c7400">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2326,7 +2326,7 @@ You are standing on a deserted street running to the east and the west. Old boar
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f19983734b0">
+  <item nodeId="node-0x16c7560">
     <command xml:space="preserve">showme pothole</command>
     <result xml:space="preserve">&gt;SHOWME POTHOLES
 potholes - thing
@@ -2346,7 +2346,7 @@ disambiguation id: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f19983738d0">
+  <item nodeId="node-0x16c76c0">
     <command xml:space="preserve">showme potholes</command>
     <result xml:space="preserve">potholes - thing
 location: in Endless Street
@@ -2365,11 +2365,11 @@ disambiguation id: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998373770"/>
-      <child nodeId="node-0x7f1998373cf0"/>
+      <child nodeId="node-0x16c7820"/>
+      <child nodeId="node-0x16c7980"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998373770">
+  <item nodeId="node-0x16c7820">
     <command xml:space="preserve">showverb</command>
     <result xml:space="preserve">Try typing &quot;showverb&quot; and then the name of a verb.
 &gt;</result>
@@ -2379,7 +2379,7 @@ disambiguation id: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998373cf0">
+  <item nodeId="node-0x16c7980">
     <command xml:space="preserve">x potholes</command>
     <result xml:space="preserve">x
 Some of these potholes could swallow a Geo Metro.
@@ -2391,7 +2391,7 @@ Some of these potholes could swallow a Geo Metro.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998373a30">
+  <item nodeId="node-0x16c7ae0">
     <command xml:space="preserve">x potholes</command>
     <result xml:space="preserve">&quot;t&quot; = thing: potholes
 x
@@ -2404,11 +2404,11 @@ Some of these potholes could swallow a Geo Metro.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f1998373610"/>
-      <child nodeId="node-0x7f1998373e50"/>
+      <child nodeId="node-0x16c7c40"/>
+      <child nodeId="node-0x16c7da0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f1998373610">
+  <item nodeId="node-0x16c7c40">
     <command xml:space="preserve">showme potholes</command>
     <result xml:space="preserve">potholes - thing
 location: in Endless Street
@@ -2427,7 +2427,7 @@ disambiguation id: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f1998373e50">
+  <item nodeId="node-0x16c7da0">
     <command xml:space="preserve">showverb x</command>
     <result xml:space="preserve">Verb &apos;check&apos; &apos;describe&apos; &apos;examine&apos; &apos;inspect&apos; &apos;observe&apos; &apos;view&apos; &apos;watch&apos; &apos;x&apos;
      * noun -&gt; Examine
