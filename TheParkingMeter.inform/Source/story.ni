@@ -3,16 +3,56 @@
 Volume 1 - General Settings
 
 Include Player Experience Upgrade by Aaron Reed.
-Include Version 6 of Atmospheric Effects by Mikael Segercrantz.
+[Include Version 6 of Atmospheric Effects by Mikael Segercrantz.]
+
+Book 1 - Story Setup
 
 Part 1 - New Rules
 
 Instead of waking up at least twice:
 	If the player is not in the Endless Street:
 		Say "Reality is stranger.";
-		[move the player to someplace weird]
+		Abide by the moving to an interesting location rule;
 	Otherwise:
 		Continue the action.
+
+Part 2 - Moving to a new interesting location
+
+A room can be an interesting place to start or a normal place. A room is usually a normal place.
+
+This is the moving to an interesting location rule:
+	Let x be a random unvisited interesting place to start;
+	If x is nothing:
+		Let x be a random visited interesting place to start;
+	If x is nothing:
+		Say "There is nowhere interesting to go";
+		Rule fails;
+	Otherwise:
+		Let r be the map region of x;
+		Follow the RegionEnter rulebook for r;
+		Now the player is in x;
+		Rule succeeds.
+
+Part 3 - Special rules for entering regions
+
+RegionEnter is a region based rulebook.
+RegionEnter Abandoned House Dream:
+	If a random chance of one in three succeeds:
+		Now  Mictlantecuhtli is in the abandoned living room;
+	Otherwise:
+		Now  Mictlantecuhtli is in limbo.
+
+Before entering a region (called x):
+	Follow the RegionEnter rulebook for x.
+Before going to a region (called x):
+	Follow the RegionEnter rulebook for x.
+
+
+Part 4 - Special rules for entering rooms
+
+RoomEnter is a room based rulebook.
+
+
 
 Volume 2 - Locations
 
@@ -26,8 +66,12 @@ Chapter 1
 
 Endless Street is a room. The description is "You are standing on a deserted street running to the east and the west. Old boarded up shops line the street on both sides."
 
-Instead of waiting when in the Endless Street:
-	Say "You wait for hours, but no bus comes by to pick you up.".
+Instead of waiting when in the Endless Street for the 15th time:
+	Say "A tired looking city bus pulls up and stops in front of you";
+	Now the bus is in the Endless Street.
+
+Instead of waiting when in the Endless Street for less than 15 times:
+	Say "You wait, but no bus comes by to pick you up.".
 
 Instead of going a direction (called d) in the Endless Street:
 	If the d is up:
@@ -53,6 +97,7 @@ Before entering the shops:
 	Say "They are well boarded up.";
 	Stop the action.
 
+In limbo is a vehicle called the bus.
 
 Chapter 2 - Scenery
 
@@ -73,17 +118,17 @@ The graffiti is scenery in the Endless Street. The description is "Oddly enough,
 
 The rats are scenery in the Endless Street. The description is "Rats! Where?".
 
-The empty street is scenery in the Endless Street. The description is "An empty potholed street". Understand "road" as the empty street.
+[The empty street is scenery in the Endless Street. The description is "An empty potholed street". Understand "road" as the empty street.
 After examining the street:
-	Now the potholes are known.
+	Now the potholes are known.]
 
-The potholes are scenery in the Endless Street. The description is "Some of these potholes could swallow a Geo Metro.". The potholes are unknown.
+The potholes are scenery in the Endless Street. The description is "Some of these potholes could swallow a Geo Metro.". [The potholes are unknown.]
 
-The plywood is scenery in the Endless Street. The description is "The amount of plywood used to board up these shops probably kept some lumber yard in business.". [Now the player knows about the lumber yard.] Understand "boards" as plywood.
+[The plywood is scenery in the Endless Street. The description is "The amount of plywood used to board up these shops probably kept some lumber yard in business.". [Now the player knows about the lumber yard.] Understand "boards" as plywood.
 After examining the plywood:
-	Now the lumber yard is known.
+	Now the lumber yard is known.]
 
-The lumber yard is scenery in the Endless Street. The description is "It doesn't matter which lumber yard.". Understand "lumberyard" as lumber  yard. the Lumber yard is unknown.
+The lumber yard is scenery in the Endless Street. The description is "It doesn't matter which lumber yard.". Understand "lumberyard" as lumber  yard. [The Lumber yard is unknown.]
 
 The car is scenery in the Endless. The description is "You don't have a car. You came here by bus.". Understand "automobile", "auto", "vehicle", "my car", "my auto" as car.
 Before of entering the car:
@@ -175,7 +220,7 @@ Book 2 - Abnormal World 1
 
 Part 2 - Another Endless Street
 
-Another Endless Street is a room. The description is "You are standing on a deserted street running to the east and the west. Old boarded up shops line the street on both sides.". The printed name of Another Endless Street is "Endless Street". The Another Endless street has a number called connected_shops. connected_shops is zero.
+Another Endless Street is a room. The description is "You are standing on a deserted street running to the east and the west. Old boarded up shops line the street on both sides.". The printed name of Another Endless Street is "Endless Street". The Another Endless street has a number called connected_shops. connected_shops is zero. It is an interesting place to start.
 
 Instead of waiting when in Another Endless Street:
 	Say "You wait for hours, but no bus comes by to pick you up.".
@@ -329,6 +374,81 @@ Metal Cage is a room. The description is "A small metal cage that barely fits in
 Book 4 - Abnormal World 3
 
 Part 4 - Accident
+
+Laying on the street is a room. It is an interesting place to start.
+
+Book 5 - Seven Falls / Clear Creek Canyon
+
+The Hanging Platform is a room. It is an interesting place to start.
+
+Book 6 - Abandoned House
+
+Abandoned House Dream is a region. It contains the Abandoned Living Room, Bottom of Stairs, Dining Room, Kitchen, Bathroom, Top of Stairs, Bedroom 1, Bedroom 2, Bedroom 3, Front Porch, Orchard, Top of Cellar Steps, and the Cellar.
+
+Part 1 - Abandoned Living Room
+
+Abandoned Living room is a room. It is an interesting place to start. The description is "A dirty living room in a long abandoned house. The windows have been boarded up. The only furniture that remains is a single ratty easy chair with a missing leg. A thin layer of dirt, broken glass, and pigeon shit covers the warped floorboards. To the northwest is a short hallway.".
+
+The ratty easy chair is scenery in the abandoned living room. The description is "A vaguely orange, formerly overstuffed chair. It is now filthy with dirt and mold. The front left leg is missing".
+
+Mictlantecuhtli is a man in the Abandoned Living room. He is carrying a shard of glass.
+
+Instead of doing anything except looking or examining in the presence of Mictlantecuhtli:
+	Say "You are frozen by the terrible visage of Mictlantecuhtli";
+	If a random chance of one in three succeeds:
+		say "Mictlantecuhtli takes a shard of glass and quickly runs it through your heart. You barely have time to notice the blood.";
+		Abide by the moving to an interesting location rule.
+
+
+Part 2 - Bottom Of Stairs
+
+Bottom of Stairs is a room. It is northwest of Abandoned Living Room. The description is "You are standing in a short hallway at the bottom of a stairway that climbs eastward into the darkness. To the southeast is the living room and to the north is what was most likely the remnants of a dining room. The door that formerly closed off this stairway has been removed from its hinges and cut in two. It now leans against the walls.".
+
+Part 3 - Dining Room
+
+The Dining Room is north of the Bottom of  Stairs. The description is "A smallish dining room. The wainscotting on the ceiling has weathered in to strings of wood dipping down from the ceiling. An outside door leads west, and interior doors lead south, southeast, and northeast.".
+
+Part 4 - Kitchen
+
+The kitchen is northeast of the dining room. The description is "This narrow, claustrophobic kitchen is in complete disarray. The appliances are long gone, but any furniture that was here has been ripped to shreds along with any fixtures that found there way in here. The room is a jumble of broken wood, formica, pipe and shredded linoleum.  A single intact cabinet remains on the south wall. The door to the dining room has been removed from its hinges, cut in two and left on the floor.".
+
+The cabinet is scenery in the kitchen. It is fixed in place. [It is closed.]
+Instead of looking in the cabinet:
+	[if the cabinet is closed]
+	Say "You look into the cabinet and notice that it hides a peephole. Looking through that gives you a very unsettling gaze into the bathroom.".
+
+Part 5 - Bathroom
+
+The bathroom is southeast of the dining room. The description is "This narrow bathroom has had most of its fixtures stripped. The room is dirty, dingy and claustrophobic. The door to the bathroom has been removed from its hinges and cut in half. The exit to the dining room is to the northwest and a small closet lies to the south.".
+
+The cut up bathroom door is scenery in the bathroom.
+
+Part 6 - Top of Stairs
+
+Top of stairs is a room. It is east of Bottom of Stairs. It is above bottom of stairs. The description is "You are standing in a short hallway at the top of the stairs. Bedrooms lie to the north, southeast and southwest. Each of the bedroom doors have been removed from their hinges, cut and half and leaned against the walls.". It is mapped above Bottom of Stairs.
+
+Part 7 - Bedroom 1
+
+Bedroom 1 is north of Top of Stairs.
+
+Part 8 - Bedroom 2
+
+Bedroom 2 is southwest of Top of Stairs. The description is "This is what was obviously once a child's bedroom. Nothing remains except for drawings and the decaying remnants of homework scattered on the floor.". The printed name is "Bedroom".
+
+Part 9 - Bedroom 3
+
+Bedroom 3 is southeast of Top of Stairs. The description is "This bedroom is completely empty. The roof is partially missing and parts of the floor have rotted away. On the other side of the room is a sealed up closet.". The printed name is "Bedroom".
+
+
+
+Front porch is a room. It is south of the Abandoned Living Room. The description is "The front porch has decayed to the point of absurdity. To the south lies a large corn field. Beyond that you see forested hills.".
+
+The Orchard is a room. It is west of the dining room.
+
+Top of the cellar steps is a room. it is south of the bathroom.
+
+The Stone Cellar is a room. It is below the Top of the cellar steps. It is west of the top of the cellar steps. It is mapped below Top of the Cellar Steps.
+
 
 Volume 3 - The player
 
